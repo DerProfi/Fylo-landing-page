@@ -57,6 +57,30 @@ header {
 	    border: none;
         text-decoration: none;
         background: linear-gradient(to bottom right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    }  
+}
+
+.options-block{
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.options-container{
+    width: 30%;
+    min-width: 200px;
+    margin: 20px;
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 15%;
+    }
+    p, h2{
+      text-align: center;
     }
 }
+
+
 

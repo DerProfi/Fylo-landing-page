@@ -1,9 +1,21 @@
 //Reset
 *{
-    background-color: hsl(218, 15%, 41%);
     max-width: 1440px;
     color: hsl(0, 0%, 100%);
     font-size: 14px;
+}
+
+body{
+    background-color: hsl(217, 28%, 15%);
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2{
+    font-size: 1.2rem;
 }
 
 //Fonts
