@@ -36,8 +36,6 @@ header {
         max-width: 300px;    
     }
     h1{
-        font-size: 1.5rem;
-        text-align: center;
         max-width: 400px;
     }
     p{
@@ -82,5 +80,29 @@ header {
     }
 }
 
+.stay-produktiv {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: space-around !important;
+    img {
+      max-width: 300px;      
+    }
+    h1{
+      text-align: start;
+      width: 40%;
+    }
+    a{
+      text-decoration: underline;
+      color: hsl(176, 68%, 64%); 
+    }
+    .stay-produktiv_text{
+      max-width: 40%;
+    }
+    .stay-produktive_link{
+      display: flex;
+    }
+
+}
 
 
