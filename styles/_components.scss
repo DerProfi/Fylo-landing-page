@@ -146,17 +146,28 @@ header {
 footer{
   background-color: hsl(216, 53%, 9%);
   height: 300px;
-  border: 1px dotted white;
-
-.footer-block{
-  border: 1px solid pink;
-  margin: 15px;
-}
+  .footer-block{
+    width: 80%;
+    #footer-logo{
+      margin-bottom: 1rem;
+      max-width: 100px;
+      height: auto;
+    }
+  }
   .footer-content{
-    border: 1px solid green;
     justify-content: space-between !important;
     align-items: flex-start;
-    width: 80%;
+    .content-container{
+      width: 20%;
+      align-items: flex-start;
+      p{
+        margin-left: 10px;
+      }
+    }
+  }
+  #wrap{
+    flex-wrap: wrap;
+    justify-content: left;
   }
 }
 

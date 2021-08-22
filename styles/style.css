@@ -213,23 +213,44 @@ header a {
 footer {
   background-color: #0b1523;
   height: 300px;
-  border: 1px dotted white;
 }
 
 footer .footer-block {
-  border: 1px solid pink;
-  margin: 15px;
+  width: 80%;
+}
+
+footer .footer-block #footer-logo {
+  margin-bottom: 1rem;
+  max-width: 100px;
+  height: auto;
 }
 
 footer .footer-content {
-  border: 1px solid green;
   -webkit-box-pack: justify !important;
       -ms-flex-pack: justify !important;
           justify-content: space-between !important;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 80%;
+}
+
+footer .footer-content .content-container {
+  width: 20%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .footer-content .content-container p {
+  margin-left: 10px;
+}
+
+footer #wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .flexbox-center {
