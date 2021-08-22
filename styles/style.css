@@ -169,6 +169,7 @@ header a {
       justify-content: space-around !important;
   margin: 0 auto;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .testimonial-block .testimonial {
@@ -180,6 +181,7 @@ header a {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  border-radius: 2%;
 }
 
 .testimonial-block .testimonial p {
@@ -191,21 +193,43 @@ header a {
   margin: 0;
 }
 
-.testimonial-block .testimonial-person {
+.testimonial-person {
   -webkit-box-pack: left !important;
       -ms-flex-pack: left !important;
           justify-content: left !important;
   margin-top: 5%;
 }
 
-.testimonial-block .testimonial-person img {
+.testimonial-person img {
   border-radius: 50%;
   max-height: 30px;
   margin-right: 10px;
 }
 
-.testimonial-block .testimonial-person p {
+.testimonial-person p {
   font-size: 0.7rem;
+}
+
+footer {
+  background-color: #0b1523;
+  height: 300px;
+  border: 1px dotted white;
+}
+
+footer .footer-block {
+  border: 1px solid pink;
+  margin: 15px;
+}
+
+footer .footer-content {
+  border: 1px solid green;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80%;
 }
 
 .flexbox-center {
